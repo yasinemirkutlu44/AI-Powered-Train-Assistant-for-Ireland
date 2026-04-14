@@ -34,7 +34,7 @@ The assistant combines three patterns: **tool calling** for structured data look
 | Component | Role | Output |
 |-----------|------|--------|
 | 🧑‍💼 **Primary Agent** | Answers user questions in plain English. Invokes tools when needed and grounds answers in retrieved context. | `gpt-4.1-mini` |
-| 🔍 **`search_train_services` Tool** | Queries a SQLite DB of Irish rail services for trains matching station, date, and time filters. Station names are fuzzy-matched (e.g., "dublin" → "Dublin Heuston"). | List of ticket options with fares |
+| 🔍 **`search_train_services` Tool** | Queries a SQLite DB of Irish rail services for trains matching station, date, and time filters. Station names are fuzzy-matched (e.g., "dublin to galway" → "Dublin Heuston to Galway"). | List of ticket options with fares |
 | 🎫 **`get_inquired_ticket` Tool** | Returns the full details of a previously shown ticket for booking. | Ticket JSON |
 | 📅 **`get_current_date` Tool** | Provides the current date/time so the model can resolve fuzzy dates like "tomorrow" or "next Thursday". | Formatted date string |
 | 📚 **Knowledge Base (RAG)** | Markdown documents about stations, routes, policies, and helpers, embedded with OpenAI `text-embedding-3-large` and stored in ChromaDB. Retrieved context is injected into the system prompt for every turn. | Relevant document chunks |
@@ -119,7 +119,7 @@ The Gradio UI opens in your browser.
 ## 🎯 Design Highlights
 
 - **Hybrid retrieval** — structured queries (trains, tickets, dates) go to SQL and deterministic tools; unstructured queries (policies, accessibility, station info) go to a vector store. Each type of information lives where it's best retrieved.
-- **Fuzzy station matching** — users don't need to know official station names. "Dublin to Cork" resolves to "Dublin Heuston → Cork (Kent)" via alias tables and `difflib` fallback.
+- **Fuzzy station matching** — users don't need to know official station names. "Dublin to Cork" resolves to "ton → Cork (Kent)" via alias tables and `difflib` fallback.
 - **Ticket caching** — the most recent search results are cached so the user can say "book option 2" and the assistant knows exactly which ticket that refers to.
 - **Accessibility-first** — every reply is spoken aloud in a natural voice, supporting visually impaired users and making the interaction feel conversational.
 - **Grounded responses** — the RAG layer ensures the assistant answers based on actual Irish Rail documentation rather than hallucinating policies.
