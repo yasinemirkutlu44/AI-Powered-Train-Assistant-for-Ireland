@@ -4,7 +4,7 @@ A conversational AI assistant for Irish rail passengers — ask about timetables
 
 🚀 **Live demo:** [Hugging Face Space](https://huggingface.co/spaces/yasinemirkutlu44/<your-space-name>)
 
-Plan your journey → the assistant searches scheduled services, looks up policies in its knowledge base, and replies out loud in a natural Irish accent.
+Plan your journey → the assistant searches scheduled services, looks up policies in its knowledge base, and responds aloud in a natural voice.
 
 ---
 
