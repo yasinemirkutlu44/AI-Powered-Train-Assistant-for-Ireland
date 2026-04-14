@@ -2,7 +2,7 @@
 
 A conversational AI assistant for Irish rail passengers — ask about timetables, fares, stations, accessibility, bikes, and more in plain English and get spoken answers back.
 
-🚀 **Live demo:** [Hugging Face Space](https://huggingface.co/spaces/yasinemirkutlu44/<your-space-name>)
+🚀 **Live demo:** [Hugging Face Space](https://huggingface.co/spaces/yasinemirkutlu44/AgenticAI_ResumeChatbot)
 
 Plan your journey → the assistant searches scheduled services, looks up policies in its knowledge base, and responds aloud in a natural voice.
 
