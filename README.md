@@ -56,7 +56,7 @@ flowchart TD
     F --> C
     G --> C
     C --> H
-    H --> I[🔊 TTS — Irish accent<br/>gpt-4o-mini-tts]
+    H --> I[🔊 TTS — Generater Voice<br/>gpt-4o-mini-tts]
     I --> J[✅ Reply delivered<br/>text + audio]
 
     style A fill:#4a9eff,color:#fff
@@ -120,7 +120,7 @@ The Gradio UI opens in your browser.
 - **Hybrid retrieval** — structured queries (trains, tickets, dates) go to SQL and deterministic tools; unstructured queries (policies, accessibility, station info) go to a vector store. Each type of information lives where it's best retrieved.
 - **Fuzzy station matching** — users don't need to know official station names. "Dublin to Cork" resolves to "Dublin Heuston → Cork (Kent)" via alias tables and `difflib` fallback.
 - **Ticket caching** — the most recent search results are cached so the user can say "book option 2" and the assistant knows exactly which ticket that refers to.
-- **Accessibility-first** — every reply is spoken aloud in a natural Irish accent, supporting visually impaired users and making the interaction feel conversational.
+- **Accessibility-first** — every reply is spoken aloud in a natural voice, supporting visually impaired users and making the interaction feel conversational.
 - **Grounded responses** — the RAG layer ensures the assistant answers based on actual Irish Rail documentation rather than hallucinating policies.
 
 ---
