@@ -16,7 +16,7 @@ Ask the assistant anything about travelling by train in Ireland. It can:
 2. **Recall the last ticket** — return the ticket you just asked about (by option number or ticket ID) for booking.
 3. **Answer policy questions** — bikes, accessibility, stations, routes, and operational policies are grounded in a RAG knowledge base.
 4. **Know the current date** — understands "tomorrow", "next Thursday", and similar fuzzy dates by calling a date tool.
-5. **Speak its replies** — every answer is converted to natural Irish-accented speech using GPT-4o-mini-TTS.
+5. **Speak its replies** — every answer is converted to natural speech using GPT-4o-mini-TTS.
 
 ---
 
