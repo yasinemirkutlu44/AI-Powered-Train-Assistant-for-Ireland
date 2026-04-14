@@ -21,7 +21,7 @@ Ask the assistant anything about travelling by train in Ireland. It can:
 ---
 ## 🎥 Demo
 
-![Demo video](Project_Demo_AI_Powered_Train_Assistant_for_Ireland.mp4)
+Please see the Project_Demo_AI_Powered_Train_Assistant_for_Ireland.mp4 file.
 
 ---
 
