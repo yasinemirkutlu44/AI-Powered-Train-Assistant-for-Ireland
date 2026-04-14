@@ -19,10 +19,9 @@ Ask the assistant anything about travelling by train in Ireland. It can:
 5. **Speak its replies** — every answer is converted to natural speech using GPT-4o-mini-TTS.
 
 ---
+## 🎥 Demo
 
-## 📸 Screenshots
-
-*(Add screenshots of the chat interface, an example journey query, and the audio playback here.)*
+![Demo video](Project_Demo_AI_Powered_Train_Assistant_for_Ireland.mp4)
 
 ---
 
