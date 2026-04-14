@@ -1,6 +1,6 @@
 # ☘️ AI-Powered Train Assistant for Ireland 🚆
 
-A conversational AI assistant for Irish rail passengers — ask about timetables, fares, stations, accessibility, bikes, and more in plain English and get spoken answers back.
+A conversational AI assistant for Irish rail passengers. Ask about timetables, fares, stations, accessibility, bikes, and more in plain English and get spoken answers back.
 
 🚀 **Live demo:** [Hugging Face Space](https://huggingface.co/spaces/yasinemirkutlu44/AgenticAI_ResumeChatbot)
 
@@ -12,11 +12,11 @@ Plan your journey → the assistant searches scheduled services, looks up polici
 
 Ask the assistant anything about travelling by train in Ireland. It can:
 
-1. **Search train services** — find scheduled trains between stations with departure time, arrival time, duration, and indicative fare.
-2. **Recall the last ticket** — return the ticket you just asked about (by option number or ticket ID) for booking.
-3. **Answer policy questions** — bikes, accessibility, stations, routes, and operational policies are grounded in a RAG knowledge base.
-4. **Know the current date** — understands "tomorrow", "next Thursday", and similar fuzzy dates by calling a date tool.
-5. **Speak its replies** — every answer is converted to natural speech using GPT-4o-mini-TTS.
+1. **Search train services** —> find scheduled trains between stations with departure time, arrival time, duration, and indicative fare.
+2. **Recall the last ticket** —> return the ticket you just asked about (by option number or ticket ID) for booking.
+3. **Answer policy questions** —> bikes, accessibility, stations, routes, and operational policies are grounded in a RAG knowledge base.
+4. **Know the current date** —> understands "tomorrow", "next Thursday", and similar fuzzy dates by calling a date tool.
+5. **Speak its replies** —> every answer is converted to natural speech using GPT-4o-mini-TTS.
 
 ---
 ## 🎥 Demo
